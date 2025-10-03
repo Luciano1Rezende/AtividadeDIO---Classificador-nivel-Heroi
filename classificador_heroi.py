@@ -1,5 +1,5 @@
-nomeHeroi = "Meste dos Desesperados"
-XP = 8500
+nomeHeroi = input("Digite o nome do herói: ")
+XP = int(input("Digite a quantidade de XP do herói: "))
 nivelHeroi = ""
 
 if XP < 1000:
@@ -26,4 +26,4 @@ elif XP >= 9001 and XP <= 10000:
 elif XP > 10001:
   nivelHeroi = "Radiante"
 
-print(f"O Heroi de nome {nomeHeroi} está no nível {nivelHeroi}")
+print(f"O Heroi de nome {nomeHeroi} está no nível {nivelHeroi} com {XP} pontos de XP.")
